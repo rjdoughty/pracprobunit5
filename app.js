@@ -8,7 +8,7 @@ const addButton = function(e){
   const button = `<button class="new">${count}</button>`; //make a string that represents the new button
   
   render(button); //render the new button to the page
-  $('.new').on('click', printNum);
+  $('.new').on('click', printNum); //render the new button's number to the page when clicked
   
   render($(this).text()); // render the text from the more button to the page
   
